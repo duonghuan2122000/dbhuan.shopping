@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DBHuan.Shopping.Application.Contracts/1.0.0": {
+        "runtime": {
+          "DBHuan.Shopping.Application.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DBHuan.Shopping.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

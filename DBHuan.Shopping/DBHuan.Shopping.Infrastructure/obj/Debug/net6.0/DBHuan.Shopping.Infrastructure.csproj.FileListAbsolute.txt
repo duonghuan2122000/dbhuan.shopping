@@ -1,0 +1,11 @@
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\DBHuan.Shopping.Infrastructure.deps.json
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\DBHuan.Shopping.Infrastructure.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\ref\DBHuan.Shopping.Infrastructure.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\DBHuan.Shopping.Infrastructure.pdb
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.AssemblyInfoInputs.cache
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.AssemblyInfo.cs
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.csproj.CoreCompileInputs.cache
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\ref\DBHuan.Shopping.Infrastructure.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.pdb

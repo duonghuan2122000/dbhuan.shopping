@@ -1,0 +1,12 @@
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\bin\Debug\net6.0\DBHuan.Shopping.Application.deps.json
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\bin\Debug\net6.0\DBHuan.Shopping.Application.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\bin\Debug\net6.0\ref\DBHuan.Shopping.Application.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\bin\Debug\net6.0\DBHuan.Shopping.Application.pdb
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\DBHuan.Shopping.Application.csproj.AssemblyReference.cache
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\DBHuan.Shopping.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\DBHuan.Shopping.Application.AssemblyInfoInputs.cache
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\DBHuan.Shopping.Application.AssemblyInfo.cs
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\DBHuan.Shopping.Application.csproj.CoreCompileInputs.cache
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\DBHuan.Shopping.Application.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\ref\DBHuan.Shopping.Application.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\obj\Debug\net6.0\DBHuan.Shopping.Application.pdb

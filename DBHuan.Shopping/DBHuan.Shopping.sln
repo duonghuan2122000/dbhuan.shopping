@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.HttpApi", "DBHuan.Shopping.HttpApi\DBHuan.Shopping.HttpApi.csproj", "{DA435DBB-3768-4D50-84CC-A1625D59462C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Application", "DBHuan.Shopping.Application\DBHuan.Shopping.Application.csproj", "{4674ED8F-3CF4-4F4B-83AC-442CBE877F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Application.Contracts", "DBHuan.Shopping.Application.Contracts\DBHuan.Shopping.Application.Contracts.csproj", "{24440455-9DD2-4AAE-AC7D-76F73C7769EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Domain", "DBHuan.Shopping.Domain\DBHuan.Shopping.Domain.csproj", "{5A4AB84A-881F-4FB3-9396-554798E4567F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Domain.Shared", "DBHuan.Shopping.Domain.Shared\DBHuan.Shopping.Domain.Shared.csproj", "{E784AA0D-C6B5-49B7-9CB5-A82AA3AB35F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Infrastructure", "DBHuan.Shopping.Infrastructure\DBHuan.Shopping.Infrastructure.csproj", "{05502F65-DB0F-47E2-8A82-06660E608153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA435DBB-3768-4D50-84CC-A1625D59462C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA435DBB-3768-4D50-84CC-A1625D59462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA435DBB-3768-4D50-84CC-A1625D59462C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA435DBB-3768-4D50-84CC-A1625D59462C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4674ED8F-3CF4-4F4B-83AC-442CBE877F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4674ED8F-3CF4-4F4B-83AC-442CBE877F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4674ED8F-3CF4-4F4B-83AC-442CBE877F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4674ED8F-3CF4-4F4B-83AC-442CBE877F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24440455-9DD2-4AAE-AC7D-76F73C7769EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24440455-9DD2-4AAE-AC7D-76F73C7769EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24440455-9DD2-4AAE-AC7D-76F73C7769EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24440455-9DD2-4AAE-AC7D-76F73C7769EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4AB84A-881F-4FB3-9396-554798E4567F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4AB84A-881F-4FB3-9396-554798E4567F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4AB84A-881F-4FB3-9396-554798E4567F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4AB84A-881F-4FB3-9396-554798E4567F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E784AA0D-C6B5-49B7-9CB5-A82AA3AB35F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E784AA0D-C6B5-49B7-9CB5-A82AA3AB35F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E784AA0D-C6B5-49B7-9CB5-A82AA3AB35F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E784AA0D-C6B5-49B7-9CB5-A82AA3AB35F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05502F65-DB0F-47E2-8A82-06660E608153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05502F65-DB0F-47E2-8A82-06660E608153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05502F65-DB0F-47E2-8A82-06660E608153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05502F65-DB0F-47E2-8A82-06660E608153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {942DD7BF-A9D7-4601-8928-81D51B2ADD31}
+	EndGlobalSection
+EndGlobal

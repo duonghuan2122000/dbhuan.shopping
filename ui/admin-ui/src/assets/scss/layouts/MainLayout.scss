@@ -1,0 +1,91 @@
+/**
+ * MainLayout style
+ * createdBy: dbhuan 27/01/2022
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+#main-layout {
+    display: flex;
+    flex-direction: row;
+
+    #left-menu {
+        width: 250px;
+        flex: none;
+        height: 100vh;
+        border-right: 1px solid #ccc;
+
+        .menu {
+            .menu-item {
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                &.active {
+                    position: relative;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        inset: 0 auto 0 0;
+                        width: 4px;
+                        background-color: green;
+                    }
+                }
+
+                .menu-item-icon {
+                    margin-left: 16px;
+                    margin-right: 8px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    #main {
+        flex: 1;
+        height: 100vh;
+        overflow: hidden;
+
+        #header {
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 1px;
+            border-bottom: 1px solid #ccc;
+            .logo-box {
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .toggle {
+                    margin-left: 16px;
+                    margin-right: 16px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+
+                .logo {
+                    height: 32px;
+                    width: 200px;
+                    background-image: url('../assets/logo.svg');
+                }
+            }
+
+            .toolbar {
+                margin-right: 16px;
+                .btn {
+                    color: #000;
+                    outline: none;
+                    border: none;
+                    box-shadow: none;
+                }
+            }
+        }       
+    }
+} 
