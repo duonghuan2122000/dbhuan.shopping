@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="Moq" Version="4.17.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBHuan.Shopping.Application.Contracts\DBHuan.Shopping.Application.Contracts.csproj" />
+    <ProjectReference Include="..\DBHuan.Shopping.Application\DBHuan.Shopping.Application.csproj" />
+    <ProjectReference Include="..\DBHuan.Shopping.Domain.Shared\DBHuan.Shopping.Domain.Shared.csproj" />
+    <ProjectReference Include="..\DBHuan.Shopping.Domain\DBHuan.Shopping.Domain.csproj" />
+    <ProjectReference Include="..\DBHuan.Shopping.Infrastructure\DBHuan.Shopping.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.test.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

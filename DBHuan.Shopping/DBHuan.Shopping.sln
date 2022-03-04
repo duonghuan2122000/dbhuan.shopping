@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.HttpApi", "DBHuan.Shopping.HttpApi\DBHuan.Shopping.HttpApi.csproj", "{DA435DBB-3768-4D50-84CC-A1625D59462C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBHuan.Shopping.HttpApi", "DBHuan.Shopping.HttpApi\DBHuan.Shopping.HttpApi.csproj", "{DA435DBB-3768-4D50-84CC-A1625D59462C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Application", "DBHuan.Shopping.Application\DBHuan.Shopping.Application.csproj", "{4674ED8F-3CF4-4F4B-83AC-442CBE877F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBHuan.Shopping.Application", "DBHuan.Shopping.Application\DBHuan.Shopping.Application.csproj", "{4674ED8F-3CF4-4F4B-83AC-442CBE877F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Application.Contracts", "DBHuan.Shopping.Application.Contracts\DBHuan.Shopping.Application.Contracts.csproj", "{24440455-9DD2-4AAE-AC7D-76F73C7769EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBHuan.Shopping.Application.Contracts", "DBHuan.Shopping.Application.Contracts\DBHuan.Shopping.Application.Contracts.csproj", "{24440455-9DD2-4AAE-AC7D-76F73C7769EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Domain", "DBHuan.Shopping.Domain\DBHuan.Shopping.Domain.csproj", "{5A4AB84A-881F-4FB3-9396-554798E4567F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBHuan.Shopping.Domain", "DBHuan.Shopping.Domain\DBHuan.Shopping.Domain.csproj", "{5A4AB84A-881F-4FB3-9396-554798E4567F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Domain.Shared", "DBHuan.Shopping.Domain.Shared\DBHuan.Shopping.Domain.Shared.csproj", "{E784AA0D-C6B5-49B7-9CB5-A82AA3AB35F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBHuan.Shopping.Domain.Shared", "DBHuan.Shopping.Domain.Shared\DBHuan.Shopping.Domain.Shared.csproj", "{E784AA0D-C6B5-49B7-9CB5-A82AA3AB35F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Infrastructure", "DBHuan.Shopping.Infrastructure\DBHuan.Shopping.Infrastructure.csproj", "{05502F65-DB0F-47E2-8A82-06660E608153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBHuan.Shopping.Infrastructure", "DBHuan.Shopping.Infrastructure\DBHuan.Shopping.Infrastructure.csproj", "{05502F65-DB0F-47E2-8A82-06660E608153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHuan.Shopping.Test", "DBHuan.Shopping.Test\DBHuan.Shopping.Test.csproj", "{D22E840B-CAAB-4756-8B78-7F48B73CDF95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{05502F65-DB0F-47E2-8A82-06660E608153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05502F65-DB0F-47E2-8A82-06660E608153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05502F65-DB0F-47E2-8A82-06660E608153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22E840B-CAAB-4756-8B78-7F48B73CDF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22E840B-CAAB-4756-8B78-7F48B73CDF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22E840B-CAAB-4756-8B78-7F48B73CDF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22E840B-CAAB-4756-8B78-7F48B73CDF95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

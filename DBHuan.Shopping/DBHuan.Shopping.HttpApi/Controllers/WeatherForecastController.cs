@@ -1,3 +1,4 @@
+using DBHuan.Shopping.HttpApi.AuthAttribute;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DBHuan.Shopping.HttpApi.Controllers
@@ -18,6 +19,7 @@ namespace DBHuan.Shopping.HttpApi.Controllers
             _logger = logger;
         }
 
+        [CustomerAuthorize]
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {

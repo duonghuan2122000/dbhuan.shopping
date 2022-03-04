@@ -4,14 +4,14 @@
     "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\DBHuan.Shopping.Infrastructure.csproj": {}
   },
   "projects": {
-    "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\DBHuan.Shopping.Infrastructure.csproj": {
+    "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain.Shared\\DBHuan.Shopping.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\DBHuan.Shopping.Infrastructure.csproj",
-        "projectName": "DBHuan.Shopping.Infrastructure",
-        "projectPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\DBHuan.Shopping.Infrastructure.csproj",
+        "projectUniqueName": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain.Shared\\DBHuan.Shopping.Domain.Shared.csproj",
+        "projectName": "DBHuan.Shopping.Domain.Shared",
+        "projectPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain.Shared\\DBHuan.Shopping.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-        "outputPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\obj\\",
+        "outputPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,223 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain\\DBHuan.Shopping.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain\\DBHuan.Shopping.Domain.csproj",
+        "projectName": "DBHuan.Shopping.Domain",
+        "projectPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain\\DBHuan.Shopping.Domain.csproj",
+        "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
+        "outputPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\DBHuan.Shopping.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\DBHuan.Shopping.Infrastructure.csproj",
+        "projectName": "DBHuan.Shopping.Infrastructure",
+        "projectPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\DBHuan.Shopping.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
+        "outputPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain.Shared\\DBHuan.Shopping.Domain.Shared.csproj": {
+                "projectPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain.Shared\\DBHuan.Shopping.Domain.Shared.csproj"
+              },
+              "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain\\DBHuan.Shopping.Domain.csproj": {
+                "projectPath": "E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Domain\\DBHuan.Shopping.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.28, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

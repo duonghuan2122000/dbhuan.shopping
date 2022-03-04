@@ -1,0 +1,78 @@
+2022-02-16 20:28:20.633 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-16 20:28:20.718 +07:00 [DBG] Hosting starting
+2022-02-16 20:28:20.785 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-16 20:28:20.785 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-16 20:28:20.785 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-16 20:28:20.785 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 20:28:20.786 +07:00 [INF] Hosting environment: Development
+2022-02-16 20:28:20.786 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-16 20:28:20.786 +07:00 [DBG] Hosting started
+2022-02-16 20:28:20.831 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger - -
+2022-02-16 20:28:21.114 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-16 20:28:21.146 +07:00 [DBG] No candidates found for the request path '/swagger'
+2022-02-16 20:28:21.146 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:28:21.239 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger - - - 301 - - 418.3606ms
+2022-02-16 20:28:21.243 +07:00 [DBG] Connection ID "18014398523977498633" disconnecting.
+2022-02-16 20:28:21.250 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-16 20:28:21.253 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-16 20:28:21.253 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:28:21.341 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-16 20:28:22.194 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-16 20:28:22.195 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 944.3285ms
+2022-02-16 20:28:22.230 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui.css - -
+2022-02-16 20:28:22.230 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui-bundle.js - -
+2022-02-16 20:28:22.230 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2022-02-16 20:28:22.230 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:28:22.230 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2022-02-16 20:28:22.230 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:28:22.237 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui-standalone-preset.js - -
+2022-02-16 20:28:22.237 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2022-02-16 20:28:22.237 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:28:22.252 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-16 20:28:22.255 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-16 20:28:22.259 +07:00 [DBG] Connection ID "18374686485577203740" disconnecting.
+2022-02-16 20:28:22.259 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui.css - - - 200 143632 text/css 29.5566ms
+2022-02-16 20:28:22.264 +07:00 [DBG] Connection ID "18014398523977498635" disconnecting.
+2022-02-16 20:28:22.269 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 32.4522ms
+2022-02-16 20:28:22.271 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-16 20:28:22.303 +07:00 [DBG] Connection ID "18230571297501347877" disconnecting.
+2022-02-16 20:28:22.305 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 75.0876ms
+2022-02-16 20:28:23.029 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-16 20:28:23.031 +07:00 [DBG] Connection ID "18158513707758387219" disconnecting.
+2022-02-16 20:28:23.031 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 1.9012ms
+2022-02-16 20:28:24.811 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-16 20:28:24.811 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-16 20:28:24.811 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:28:24.913 +07:00 [DBG] Connection ID "18302628887244308501" disconnecting.
+2022-02-16 20:28:24.913 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.3286ms
+2022-02-16 20:45:47.879 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-16 20:45:47.959 +07:00 [DBG] Hosting starting
+2022-02-16 20:45:48.028 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-16 20:45:48.028 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-16 20:45:48.028 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-16 20:45:48.029 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-16 20:45:48.029 +07:00 [INF] Hosting environment: Development
+2022-02-16 20:45:48.029 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-16 20:45:48.029 +07:00 [DBG] Hosting started
+2022-02-16 20:45:48.070 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-16 20:45:48.127 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-16 20:45:48.166 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-16 20:45:48.166 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:45:48.342 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-16 20:45:48.467 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-16 20:45:48.469 +07:00 [DBG] Connection ID "18374686494167138332" disconnecting.
+2022-02-16 20:45:48.476 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 412.3060ms
+2022-02-16 20:45:48.534 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-16 20:45:48.537 +07:00 [DBG] Connection ID "18374686494167138334" disconnecting.
+2022-02-16 20:45:48.537 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.0085ms
+2022-02-16 20:45:48.947 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-16 20:45:48.948 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-16 20:45:48.950 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:45:48.985 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/favicon-32x32.png - -
+2022-02-16 20:45:48.986 +07:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2022-02-16 20:45:48.986 +07:00 [DBG] Request did not match any endpoints
+2022-02-16 20:45:48.997 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-02-16 20:45:48.997 +07:00 [DBG] Connection ID "18374686489872171036" disconnecting.
+2022-02-16 20:45:48.997 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/favicon-32x32.png - - - 200 628 image/png 11.5604ms
+2022-02-16 20:45:49.065 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.3041ms
+2022-02-16 20:45:49.066 +07:00 [DBG] Connection ID "18230571293206380566" disconnecting.

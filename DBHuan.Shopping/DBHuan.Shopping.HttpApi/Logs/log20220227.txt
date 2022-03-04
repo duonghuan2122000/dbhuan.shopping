@@ -1,0 +1,977 @@
+2022-02-27 16:26:07.130 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:26:07.206 +07:00 [DBG] Hosting starting
+2022-02-27 16:26:07.293 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:26:07.293 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:26:07.293 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:26:07.294 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:26:07.301 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:26:07.301 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:26:07.302 +07:00 [DBG] Hosting started
+2022-02-27 16:26:07.328 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger - -
+2022-02-27 16:26:07.594 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:26:07.618 +07:00 [DBG] No candidates found for the request path '/swagger'
+2022-02-27 16:26:07.619 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:26:07.689 +07:00 [DBG] Connection ID "18302628900129210378" disconnecting.
+2022-02-27 16:26:07.694 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:26:07.694 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger - - - 301 - - 369.3158ms
+2022-02-27 16:26:07.695 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:26:07.695 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:26:07.781 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:26:08.549 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:26:08.550 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 856.1298ms
+2022-02-27 16:26:08.567 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui.css - -
+2022-02-27 16:26:08.567 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2022-02-27 16:26:08.567 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:26:08.582 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-27 16:26:08.588 +07:00 [DBG] Connection ID "18374686489872171029" disconnecting.
+2022-02-27 16:26:08.591 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui.css - - - 200 143632 text/css 24.2165ms
+2022-02-27 16:26:08.599 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui-bundle.js - -
+2022-02-27 16:26:08.599 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2022-02-27 16:26:08.599 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:26:08.608 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui-standalone-preset.js - -
+2022-02-27 16:26:08.609 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2022-02-27 16:26:08.609 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:26:08.613 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:26:08.615 +07:00 [DBG] Connection ID "17942340917054668801" disconnecting.
+2022-02-27 16:26:08.615 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 1.9494ms
+2022-02-27 16:26:08.680 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-27 16:26:08.683 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-27 16:26:08.686 +07:00 [DBG] Connection ID "18086456105130524676" disconnecting.
+2022-02-27 16:26:08.686 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 78.0784ms
+2022-02-27 16:26:08.703 +07:00 [DBG] Connection ID "18302628900129210380" disconnecting.
+2022-02-27 16:26:08.703 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 103.9625ms
+2022-02-27 16:26:09.051 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:26:09.051 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:26:09.051 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:26:09.109 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/favicon-32x32.png - -
+2022-02-27 16:26:09.109 +07:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2022-02-27 16:26:09.109 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:26:09.110 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-02-27 16:26:09.110 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/favicon-32x32.png - - - 200 628 image/png 0.5317ms
+2022-02-27 16:26:09.141 +07:00 [DBG] Connection ID "18230571297501347841" disconnecting.
+2022-02-27 16:26:09.141 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.0316ms
+2022-02-27 16:48:02.367 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:48:02.426 +07:00 [DBG] Hosting starting
+2022-02-27 16:48:02.472 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:48:02.472 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:48:02.473 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:48:02.473 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:48:02.473 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:48:02.473 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:48:02.474 +07:00 [DBG] Hosting started
+2022-02-27 16:48:02.493 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:48:02.519 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:48:02.538 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:48:02.538 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:02.621 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:48:02.711 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:48:02.713 +07:00 [DBG] Connection ID "18230571301796315137" disconnecting.
+2022-02-27 16:48:02.719 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 227.9853ms
+2022-02-27 16:48:02.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui-bundle.js - -
+2022-02-27 16:48:02.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui.css - -
+2022-02-27 16:48:02.728 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/swagger-ui-standalone-preset.js - -
+2022-02-27 16:48:02.729 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2022-02-27 16:48:02.729 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2022-02-27 16:48:02.729 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:02.729 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2022-02-27 16:48:02.729 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:02.729 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:02.740 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-02-27 16:48:02.740 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-02-27 16:48:02.742 +07:00 [DBG] Connection ID "18230571301796315139" disconnecting.
+2022-02-27 16:48:02.742 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-02-27 16:48:02.743 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui.css - - - 200 143632 text/css 15.4411ms
+2022-02-27 16:48:02.747 +07:00 [DBG] Connection ID "18158513707758387201" disconnecting.
+2022-02-27 16:48:02.747 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 19.3451ms
+2022-02-27 16:48:02.763 +07:00 [DBG] Connection ID "18158513699168452626" disconnecting.
+2022-02-27 16:48:02.763 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 35.3112ms
+2022-02-27 16:48:02.776 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:48:02.778 +07:00 [DBG] Connection ID "18158513712053354497" disconnecting.
+2022-02-27 16:48:02.779 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 1.6994ms
+2022-02-27 16:48:03.063 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:48:03.063 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:48:03.063 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:03.081 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/favicon-32x32.png - -
+2022-02-27 16:48:03.082 +07:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2022-02-27 16:48:03.082 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:03.082 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-02-27 16:48:03.083 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/favicon-32x32.png - - - 200 628 image/png 1.3083ms
+2022-02-27 16:48:03.154 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.5541ms
+2022-02-27 16:48:03.154 +07:00 [DBG] Connection ID "18158513712053354499" disconnecting.
+2022-02-27 16:48:22.052 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:48:22.117 +07:00 [DBG] Hosting starting
+2022-02-27 16:48:22.166 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:48:22.166 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:48:22.166 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:48:22.166 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:48:22.167 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:48:22.167 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:48:22.167 +07:00 [DBG] Hosting started
+2022-02-27 16:48:22.192 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:48:22.255 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:48:22.279 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:48:22.280 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:22.371 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:48:22.460 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:48:22.461 +07:00 [DBG] Connection ID "18302628895834243096" disconnecting.
+2022-02-27 16:48:22.466 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 278.1813ms
+2022-02-27 16:48:22.490 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:48:22.493 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.3150ms
+2022-02-27 16:48:22.493 +07:00 [DBG] Connection ID "18230571306091282436" disconnecting.
+2022-02-27 16:48:22.838 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:48:22.840 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:48:22.840 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:22.932 +07:00 [DBG] Connection ID "18158513703463419905" disconnecting.
+2022-02-27 16:48:22.933 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.4625ms
+2022-02-27 16:48:33.986 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:48:34.058 +07:00 [DBG] Hosting starting
+2022-02-27 16:48:34.099 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:48:34.099 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:48:34.099 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:48:34.100 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:48:34.100 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:48:34.100 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:48:34.100 +07:00 [DBG] Hosting started
+2022-02-27 16:48:34.121 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:48:34.153 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:48:34.190 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:48:34.190 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:34.317 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:48:34.432 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:48:34.434 +07:00 [DBG] Connection ID "18158513699168452634" disconnecting.
+2022-02-27 16:48:34.439 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 320.6070ms
+2022-02-27 16:48:34.552 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:48:34.557 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 5.0972ms
+2022-02-27 16:48:34.811 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:48:34.813 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:48:34.813 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:34.905 +07:00 [DBG] Connection ID "18014398523977498631" disconnecting.
+2022-02-27 16:48:34.906 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.9471ms
+2022-02-27 16:48:43.965 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:48:44.054 +07:00 [DBG] Hosting starting
+2022-02-27 16:48:44.133 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:48:44.133 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:48:44.133 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:48:44.133 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:48:44.135 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:48:44.135 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:48:44.135 +07:00 [DBG] Hosting started
+2022-02-27 16:48:44.182 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:48:44.238 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:48:44.270 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:48:44.270 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:44.396 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:48:44.491 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:48:44.493 +07:00 [DBG] Connection ID "18158513712053354503" disconnecting.
+2022-02-27 16:48:44.497 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 320.0479ms
+2022-02-27 16:48:44.517 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:48:44.521 +07:00 [DBG] Connection ID "18158513699168452640" disconnecting.
+2022-02-27 16:48:44.521 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.7027ms
+2022-02-27 16:48:44.744 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:48:44.745 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:48:44.745 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:48:44.846 +07:00 [DBG] Connection ID "18158513699168452642" disconnecting.
+2022-02-27 16:48:44.846 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.9502ms
+2022-02-27 16:49:17.719 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:49:17.798 +07:00 [DBG] Hosting starting
+2022-02-27 16:49:17.847 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:49:17.847 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:49:17.847 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:49:17.848 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:49:17.848 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:49:17.848 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:49:17.848 +07:00 [DBG] Hosting started
+2022-02-27 16:49:17.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:49:17.925 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:49:17.953 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:49:17.953 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:49:18.087 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:49:18.204 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:49:18.205 +07:00 [DBG] Connection ID "18302628895834243104" disconnecting.
+2022-02-27 16:49:18.210 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 323.8857ms
+2022-02-27 16:49:18.260 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:49:18.267 +07:00 [DBG] Connection ID "18302628887244308497" disconnecting.
+2022-02-27 16:49:18.267 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 6.8431ms
+2022-02-27 16:49:18.629 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:49:18.630 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:49:18.631 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:49:18.754 +07:00 [DBG] Connection ID "18230571293206380548" disconnecting.
+2022-02-27 16:49:18.754 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.5170ms
+2022-02-27 16:49:26.868 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:49:26.944 +07:00 [DBG] Hosting starting
+2022-02-27 16:49:27.009 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:49:27.009 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:49:27.009 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:49:27.010 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:49:27.011 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:49:27.011 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:49:27.011 +07:00 [DBG] Hosting started
+2022-02-27 16:49:27.038 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:49:27.073 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:49:27.106 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:49:27.106 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:49:27.201 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:49:27.297 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:49:27.298 +07:00 [DBG] Connection ID "18158513699168452646" disconnecting.
+2022-02-27 16:49:27.303 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 269.3375ms
+2022-02-27 16:49:27.336 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:49:27.339 +07:00 [DBG] Connection ID "18302628895834243108" disconnecting.
+2022-02-27 16:49:27.339 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.4268ms
+2022-02-27 16:49:27.548 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:49:27.549 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:49:27.549 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:49:27.639 +07:00 [DBG] Connection ID "18158513699168452648" disconnecting.
+2022-02-27 16:49:27.639 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.4226ms
+2022-02-27 16:50:00.299 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:50:00.386 +07:00 [DBG] Hosting starting
+2022-02-27 16:50:00.449 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:50:00.449 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:50:00.449 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:50:00.450 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:50:00.450 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:50:00.450 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:50:00.451 +07:00 [DBG] Hosting started
+2022-02-27 16:50:00.479 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:50:00.515 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:50:00.547 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:50:00.548 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:50:00.664 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:50:00.788 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:50:00.792 +07:00 [DBG] Connection ID "18302628900129210398" disconnecting.
+2022-02-27 16:50:00.795 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 321.1372ms
+2022-02-27 16:50:00.840 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:50:00.845 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 5.4941ms
+2022-02-27 16:50:01.221 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:50:01.223 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:50:01.223 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:50:01.329 +07:00 [DBG] Connection ID "18158513699168452654" disconnecting.
+2022-02-27 16:50:01.329 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.3102ms
+2022-02-27 16:51:16.236 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:51:16.305 +07:00 [DBG] Hosting starting
+2022-02-27 16:51:16.372 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:51:16.372 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:51:16.372 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:51:16.373 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:51:16.373 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:51:16.373 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:51:16.373 +07:00 [DBG] Hosting started
+2022-02-27 16:51:16.404 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:51:16.440 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:51:16.466 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:51:16.467 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:51:16.575 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:51:16.662 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:51:16.664 +07:00 [DBG] Connection ID "18302628895834243114" disconnecting.
+2022-02-27 16:51:16.669 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 268.6320ms
+2022-02-27 16:51:16.677 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:51:16.681 +07:00 [DBG] Connection ID "18086456109425491981" disconnecting.
+2022-02-27 16:51:16.681 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 4.0294ms
+2022-02-27 16:51:16.991 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:51:16.992 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:51:16.992 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:51:17.111 +07:00 [DBG] Connection ID "18302628900129210404" disconnecting.
+2022-02-27 16:51:17.111 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.3995ms
+2022-02-27 16:51:24.660 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 16:51:24.731 +07:00 [DBG] Hosting starting
+2022-02-27 16:51:24.792 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 16:51:24.792 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 16:51:24.793 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 16:51:24.793 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 16:51:24.793 +07:00 [INF] Hosting environment: Development
+2022-02-27 16:51:24.793 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 16:51:24.793 +07:00 [DBG] Hosting started
+2022-02-27 16:51:24.815 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 16:51:24.846 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 16:51:24.867 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 16:51:24.868 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:51:24.957 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 16:51:25.045 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 16:51:25.047 +07:00 [DBG] Connection ID "18158513699168452660" disconnecting.
+2022-02-27 16:51:25.052 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 239.8303ms
+2022-02-27 16:51:25.105 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 16:51:25.108 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.2473ms
+2022-02-27 16:51:25.342 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 16:51:25.344 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 16:51:25.344 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 16:51:25.433 +07:00 [DBG] Connection ID "18158513699168452664" disconnecting.
+2022-02-27 16:51:25.433 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.8221ms
+2022-02-27 19:32:21.898 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 19:32:21.998 +07:00 [DBG] Hosting starting
+2022-02-27 19:32:22.058 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 19:32:22.058 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 19:32:22.058 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 19:32:22.058 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:32:22.058 +07:00 [INF] Hosting environment: Development
+2022-02-27 19:32:22.058 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 19:32:22.058 +07:00 [DBG] Hosting started
+2022-02-27 19:32:22.083 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger - -
+2022-02-27 19:32:22.327 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 19:32:22.348 +07:00 [DBG] No candidates found for the request path '/swagger'
+2022-02-27 19:32:22.349 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:32:22.405 +07:00 [DBG] Connection ID "18158513699168452666" disconnecting.
+2022-02-27 19:32:22.409 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 19:32:22.411 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 19:32:22.411 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:32:22.421 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger - - - 301 - - 340.1950ms
+2022-02-27 19:32:22.472 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 19:32:23.232 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 19:32:23.234 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 824.7645ms
+2022-02-27 19:32:23.247 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 19:32:23.257 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 10.6073ms
+2022-02-27 19:32:23.480 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 19:32:23.482 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 19:32:23.482 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:32:23.610 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.3502ms
+2022-02-27 19:32:23.610 +07:00 [DBG] Connection ID "18302628891539275813" disconnecting.
+2022-02-27 19:35:13.854 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/customers/token application/json 50
+2022-02-27 19:35:13.855 +07:00 [DBG] No candidates found for the request path '/customers/token'
+2022-02-27 19:35:13.855 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:35:13.858 +07:00 [DBG] The request path  does not match the path filter
+2022-02-27 19:35:13.864 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/customers/token application/json 50 - 404 - - 9.9797ms
+2022-02-27 19:35:13.864 +07:00 [DBG] Connection ID "18158513699168452670" disconnecting.
+2022-02-27 19:35:24.802 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/customers/auth application/json 50
+2022-02-27 19:35:24.808 +07:00 [DBG] 1 candidate(s) found for the request path '/customers/auth'
+2022-02-27 19:35:24.809 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2022-02-27 19:35:24.809 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:35:24.810 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-02-27 19:35:24.810 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-02-27 19:35:24.811 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/customers/auth application/json 50 - 405 - - 9.0708ms
+2022-02-27 19:35:24.811 +07:00 [DBG] Connection ID "18158513712053354511" disconnecting.
+2022-02-27 19:35:29.151 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers/auth application/json 50
+2022-02-27 19:35:29.151 +07:00 [DBG] 1 candidate(s) found for the request path '/customers/auth'
+2022-02-27 19:35:29.157 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)' with route pattern 'customers/auth' is valid for the request path '/customers/auth'
+2022-02-27 19:35:29.158 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:35:29.158 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:35:29.158 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:35:29.198 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(DBHuan.Shopping.Application.Contracts.AuthenticateReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:35:29.202 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:35:29.202 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:35:29.203 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:35:29.203 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:35:29.203 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:35:29.205 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:35:29.331 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:35:29.339 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:35:29.341 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' using the name '' in request data ...
+2022-02-27 19:35:29.342 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:35:29.355 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'
+2022-02-27 19:35:29.355 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:35:29.355 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:35:29.355 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:35:29.366 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:35:30.771 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi) in 1564.1999ms
+2022-02-27 19:35:30.772 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:35:30.933 +07:00 [DBG] DBHuanShoppingMiddleware-Ex: DBHuan.Shopping.Domain.DBHuanShoppingException: Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.
+   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.GetAsync(String username, String password) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\Repository\Customer\CustomerRepository.cs:line 105
+   at DBHuan.Shopping.Application.CustomerService.Authenticate(AuthenticateReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\Customer\CustomerService.cs:line 70
+   at DBHuan.Shopping.HttpApi.CustomerController.Authenticate(AuthenticateReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Controllers\CustomerController.cs:line 59
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at DBHuan.Shopping.HttpApi.DBHuanShoppingMiddleware.Invoke(HttpContext context) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Middleware\DBHuanShoppingMiddleware.cs:line 31
+2022-02-27 19:35:31.060 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers/auth application/json 50 - 400 - application/json 1909.9745ms
+2022-02-27 19:35:31.061 +07:00 [DBG] Connection ID "18158513699168452672" disconnecting.
+2022-02-27 19:35:55.041 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers/auth application/json 44
+2022-02-27 19:35:55.041 +07:00 [DBG] 1 candidate(s) found for the request path '/customers/auth'
+2022-02-27 19:35:55.041 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)' with route pattern 'customers/auth' is valid for the request path '/customers/auth'
+2022-02-27 19:35:55.041 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:35:55.041 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:35:55.042 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:35:55.043 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(DBHuan.Shopping.Application.Contracts.AuthenticateReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:35:55.043 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:35:55.043 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:35:55.043 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:35:55.043 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:35:55.044 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:35:55.044 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:35:55.044 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:35:55.044 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:35:55.045 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' using the name '' in request data ...
+2022-02-27 19:35:55.045 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:35:55.045 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'
+2022-02-27 19:35:55.045 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:35:55.045 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:35:55.045 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:35:55.046 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:35:55.047 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi) in 3.4985ms
+2022-02-27 19:35:55.048 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:35:55.049 +07:00 [DBG] DBHuanShoppingMiddleware-Ex: DBHuan.Shopping.Domain.DBHuanShoppingException: Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.
+   at DBHuan.Shopping.Application.ValidationService.ValidateRequired[TDto](PropertyInfo property, TDto dto) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\Validation\ValidationService.cs:line 66
+   at DBHuan.Shopping.Application.ValidationService.Validate[TDto](TDto dto) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\Validation\ValidationService.cs:line 41
+   at DBHuan.Shopping.HttpApi.CustomerController.Authenticate(AuthenticateReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Controllers\CustomerController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at DBHuan.Shopping.HttpApi.DBHuanShoppingMiddleware.Invoke(HttpContext context) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Middleware\DBHuanShoppingMiddleware.cs:line 31
+2022-02-27 19:35:55.057 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers/auth application/json 44 - 400 - application/json 15.7704ms
+2022-02-27 19:36:00.980 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers/auth application/json 50
+2022-02-27 19:36:00.981 +07:00 [DBG] 1 candidate(s) found for the request path '/customers/auth'
+2022-02-27 19:36:00.981 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)' with route pattern 'customers/auth' is valid for the request path '/customers/auth'
+2022-02-27 19:36:00.981 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:36:00.982 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:36:00.982 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:36:00.982 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(DBHuan.Shopping.Application.Contracts.AuthenticateReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:36:00.982 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:36:00.982 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:36:00.982 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:36:00.982 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:36:00.982 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:36:00.982 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:36:00.983 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:36:00.983 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:36:00.983 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' using the name '' in request data ...
+2022-02-27 19:36:00.983 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:36:00.983 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'
+2022-02-27 19:36:00.983 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:36:00.983 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:36:00.983 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:36:00.983 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:36:01.602 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-02-27 19:36:01.604 +07:00 [DBG] No information found on request to perform content negotiation.
+2022-02-27 19:36:01.604 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-02-27 19:36:01.605 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-02-27 19:36:01.605 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-02-27 19:36:01.606 +07:00 [INF] Executing OkObjectResult, writing value of type 'DBHuan.Shopping.Application.Contracts.AuthenticateRes'.
+2022-02-27 19:36:01.608 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi) in 625.4262ms
+2022-02-27 19:36:01.608 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:36:01.608 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers/auth application/json 50 - 200 - application/json;+charset=utf-8 627.6562ms
+2022-02-27 19:38:35.295 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/customers application/json 122
+2022-02-27 19:38:35.296 +07:00 [DBG] 1 candidate(s) found for the request path '/customers'
+2022-02-27 19:38:35.296 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2022-02-27 19:38:35.296 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:38:35.296 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2022-02-27 19:38:35.296 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2022-02-27 19:38:35.296 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/customers application/json 122 - 405 - - 1.0225ms
+2022-02-27 19:38:39.609 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers application/json 122
+2022-02-27 19:38:39.609 +07:00 [DBG] 1 candidate(s) found for the request path '/customers'
+2022-02-27 19:38:39.609 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)' with route pattern 'customers' is valid for the request path '/customers'
+2022-02-27 19:38:39.610 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:38:39.610 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:38:39.610 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:38:39.613 +07:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(DBHuan.Shopping.Application.Contracts.CreateCustomerReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:38:39.613 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:38:39.613 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:38:39.614 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:38:39.614 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:38:39.614 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:38:39.614 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:38:39.614 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:38:39.615 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:38:39.615 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' using the name '' in request data ...
+2022-02-27 19:38:39.615 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:38:39.617 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'
+2022-02-27 19:38:39.617 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:38:39.617 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:38:39.617 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:38:39.618 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:38:39.621 +07:00 [DBG] CustomerController-CreateAsync
+Req: {"Username":"test","Password":"123456","Email":"test@gmail.com","FirstName":"test","LastName":"test"}
+2022-02-27 19:38:39.731 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-02-27 19:38:39.732 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi) in 117.911ms
+2022-02-27 19:38:39.732 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:38:39.732 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers application/json 122 - 200 - - 122.5793ms
+2022-02-27 19:39:49.815 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers/auth application/json 58
+2022-02-27 19:39:49.815 +07:00 [DBG] 1 candidate(s) found for the request path '/customers/auth'
+2022-02-27 19:39:49.815 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)' with route pattern 'customers/auth' is valid for the request path '/customers/auth'
+2022-02-27 19:39:49.815 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:39:49.815 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:39:49.815 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:39:49.815 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(DBHuan.Shopping.Application.Contracts.AuthenticateReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:39:49.815 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:39:49.815 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:39:49.815 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:39:49.815 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:39:49.816 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:39:49.816 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:39:49.816 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:39:49.816 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:39:49.816 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' using the name '' in request data ...
+2022-02-27 19:39:49.816 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:39:49.816 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'
+2022-02-27 19:39:49.816 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:39:49.816 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:39:49.816 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq' ...
+2022-02-27 19:39:49.816 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateReq'.
+2022-02-27 19:39:49.894 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-02-27 19:39:49.894 +07:00 [DBG] No information found on request to perform content negotiation.
+2022-02-27 19:39:49.894 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-02-27 19:39:49.894 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-02-27 19:39:49.894 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-02-27 19:39:49.894 +07:00 [INF] Executing OkObjectResult, writing value of type 'DBHuan.Shopping.Application.Contracts.AuthenticateRes'.
+2022-02-27 19:39:49.894 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi) in 78.8068ms
+2022-02-27 19:39:49.894 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:39:49.895 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers/auth application/json 58 - 200 - application/json;+charset=utf-8 80.0817ms
+2022-02-27 19:45:55.964 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 19:45:56.078 +07:00 [DBG] Hosting starting
+2022-02-27 19:45:56.179 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 19:45:56.179 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 19:45:56.179 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 19:45:56.179 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:45:56.179 +07:00 [INF] Hosting environment: Development
+2022-02-27 19:45:56.180 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 19:45:56.180 +07:00 [DBG] Hosting started
+2022-02-27 19:45:56.210 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 19:45:56.210 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers application/json 122
+2022-02-27 19:45:56.237 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 19:45:56.260 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 19:45:56.261 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:45:56.276 +07:00 [DBG] 1 candidate(s) found for the request path '/customers'
+2022-02-27 19:45:56.280 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)' with route pattern 'customers' is valid for the request path '/customers'
+2022-02-27 19:45:56.281 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:45:56.285 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:45:56.289 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:45:56.326 +07:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(DBHuan.Shopping.Application.Contracts.CreateCustomerReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:45:56.330 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:45:56.331 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:45:56.331 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:45:56.331 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:45:56.331 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:45:56.332 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:45:56.402 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 19:45:56.508 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:45:56.511 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:45:56.513 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' using the name '' in request data ...
+2022-02-27 19:45:56.514 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:45:56.530 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'
+2022-02-27 19:45:56.530 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:45:56.531 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:45:56.531 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:45:56.542 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:45:56.608 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 19:45:56.609 +07:00 [DBG] Connection ID "18374686485577203732" disconnecting.
+2022-02-27 19:45:56.614 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 407.0778ms
+2022-02-27 19:45:56.680 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 19:45:56.685 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 5.1083ms
+2022-02-27 19:45:56.692 +07:00 [DBG] CustomerController-CreateAsync
+Req: {"Username":"test","Password":"123456","Email":"test@gmail.com","FirstName":"test","LastName":"test"}
+2022-02-27 19:45:57.206 +07:00 [DBG] CustomerRepository-CreateAsync
+Ex: {"ErrorCode":"E1001","ErrorMessage":"Username hoặc email đã tồn tại","ValidationsData":null,"StatusCode":400,"TargetSite":"Void MoveNext()","Message":"Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.","Data":[],"InnerException":null,"HelpLink":null,"Source":"DBHuan.Shopping.Infrastructure","HResult":-2146233088,"StackTrace":"   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\Repository\\Customer\\CustomerRepository.cs:line 64","$type":"DBHuanShoppingException"}
+2022-02-27 19:45:57.226 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi) in 891.1072ms
+2022-02-27 19:45:57.227 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:45:57.260 +07:00 [DBG] DBHuanShoppingMiddleware-Ex: DBHuan.Shopping.Domain.DBHuanShoppingException: Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.
+   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\Repository\Customer\CustomerRepository.cs:line 97
+   at DBHuan.Shopping.Application.CustomerService.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\Customer\CustomerService.cs:line 59
+   at DBHuan.Shopping.HttpApi.CustomerController.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Controllers\CustomerController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at DBHuan.Shopping.HttpApi.DBHuanShoppingMiddleware.Invoke(HttpContext context) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Middleware\DBHuanShoppingMiddleware.cs:line 31
+2022-02-27 19:45:57.276 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers application/json 122 - 500 - application/json 1069.0686ms
+2022-02-27 19:45:57.318 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 19:45:57.319 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 19:45:57.320 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:45:57.429 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.0871ms
+2022-02-27 19:45:57.430 +07:00 [DBG] Connection ID "18014398519682531334" disconnecting.
+2022-02-27 19:46:25.058 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 19:46:25.124 +07:00 [DBG] Hosting starting
+2022-02-27 19:46:25.178 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 19:46:25.178 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 19:46:25.178 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 19:46:25.179 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:46:25.181 +07:00 [INF] Hosting environment: Development
+2022-02-27 19:46:25.181 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 19:46:25.181 +07:00 [DBG] Hosting started
+2022-02-27 19:46:25.212 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 19:46:25.263 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 19:46:25.292 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 19:46:25.292 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:46:25.424 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 19:46:25.535 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 19:46:25.541 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 332.5105ms
+2022-02-27 19:46:25.667 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 19:46:25.671 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.8949ms
+2022-02-27 19:46:25.671 +07:00 [DBG] Connection ID "18230571297501347852" disconnecting.
+2022-02-27 19:46:26.169 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 19:46:26.171 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 19:46:26.171 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:46:26.291 +07:00 [DBG] Connection ID "18230571297501347854" disconnecting.
+2022-02-27 19:46:26.291 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.1687ms
+2022-02-27 19:46:32.723 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers application/json 122
+2022-02-27 19:46:32.728 +07:00 [DBG] 1 candidate(s) found for the request path '/customers'
+2022-02-27 19:46:32.733 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)' with route pattern 'customers' is valid for the request path '/customers'
+2022-02-27 19:46:32.733 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:46:32.734 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:46:32.737 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:46:32.761 +07:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(DBHuan.Shopping.Application.Contracts.CreateCustomerReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:46:32.765 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:46:32.766 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:46:32.766 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:46:32.766 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:46:32.767 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:46:32.769 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:46:32.885 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:46:32.888 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:46:32.890 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' using the name '' in request data ...
+2022-02-27 19:46:32.892 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:46:32.902 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'
+2022-02-27 19:46:32.903 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:46:32.903 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:46:32.903 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:46:32.913 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:46:33.011 +07:00 [DBG] CustomerController-CreateAsync
+Req: {"Username":"test","Password":"123456","Email":"test@gmail.com","FirstName":"test","LastName":"test"}
+2022-02-27 19:46:33.443 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi) in 671.3621ms
+2022-02-27 19:46:33.443 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:46:33.473 +07:00 [DBG] DBHuanShoppingMiddleware-Ex: DBHuan.Shopping.Domain.DBHuanShoppingException: Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.
+   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\Repository\Customer\CustomerRepository.cs:line 64
+   at DBHuan.Shopping.Application.CustomerService.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\Customer\CustomerService.cs:line 59
+   at DBHuan.Shopping.HttpApi.CustomerController.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Controllers\CustomerController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at DBHuan.Shopping.HttpApi.DBHuanShoppingMiddleware.Invoke(HttpContext context) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Middleware\DBHuanShoppingMiddleware.cs:line 31
+2022-02-27 19:46:33.486 +07:00 [DBG] Connection ID "18158513703463419912" disconnecting.
+2022-02-27 19:46:33.486 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers application/json 122 - 400 - application/json 763.6978ms
+2022-02-27 19:47:01.707 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 19:47:01.801 +07:00 [DBG] Hosting starting
+2022-02-27 19:47:01.899 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 19:47:01.899 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 19:47:01.900 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 19:47:01.900 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:47:01.901 +07:00 [INF] Hosting environment: Development
+2022-02-27 19:47:01.901 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 19:47:01.901 +07:00 [DBG] Hosting started
+2022-02-27 19:47:01.941 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 19:47:01.966 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers application/json 122
+2022-02-27 19:47:01.975 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 19:47:02.011 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 19:47:02.012 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:47:02.014 +07:00 [DBG] 1 candidate(s) found for the request path '/customers'
+2022-02-27 19:47:02.019 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)' with route pattern 'customers' is valid for the request path '/customers'
+2022-02-27 19:47:02.020 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:47:02.031 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:47:02.035 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:47:02.065 +07:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(DBHuan.Shopping.Application.Contracts.CreateCustomerReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:47:02.069 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:47:02.069 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:47:02.069 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:47:02.069 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:47:02.069 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:47:02.070 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:47:02.132 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 19:47:02.208 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:47:02.212 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:47:02.216 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' using the name '' in request data ...
+2022-02-27 19:47:02.220 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:47:02.232 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'
+2022-02-27 19:47:02.232 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:47:02.232 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:47:02.232 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:47:02.241 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:47:02.274 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 19:47:02.279 +07:00 [DBG] Connection ID "18230571293206380551" disconnecting.
+2022-02-27 19:47:02.282 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 344.3044ms
+2022-02-27 19:47:02.363 +07:00 [DBG] CustomerController-CreateAsync
+Req: {"Username":"test","Password":"123456","Email":"test@gmail.com","FirstName":"test","LastName":"test"}
+2022-02-27 19:47:02.478 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 19:47:02.482 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 4.1523ms
+2022-02-27 19:47:02.928 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 19:47:02.929 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 19:47:02.929 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:47:03.093 +07:00 [DBG] Connection ID "18374686485577203736" disconnecting.
+2022-02-27 19:47:03.094 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.5661ms
+2022-02-27 19:47:03.114 +07:00 [ERR] CustomerRepository-CreateAsync
+Ex: {"ErrorCode":"E1001","ErrorMessage":"Username hoặc email đã tồn tại","ValidationsData":null,"StatusCode":400,"TargetSite":"Void MoveNext()","Message":"Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.","Data":[],"InnerException":null,"HelpLink":null,"Source":"DBHuan.Shopping.Infrastructure","HResult":-2146233088,"StackTrace":"   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\Repository\\Customer\\CustomerRepository.cs:line 64","$type":"DBHuanShoppingException"}
+2022-02-27 19:47:03.138 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi) in 1063.8528ms
+2022-02-27 19:47:03.139 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:47:03.157 +07:00 [DBG] DBHuanShoppingMiddleware-Ex: DBHuan.Shopping.Domain.DBHuanShoppingException: Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.
+   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\Repository\Customer\CustomerRepository.cs:line 64
+   at DBHuan.Shopping.Application.CustomerService.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\Customer\CustomerService.cs:line 59
+   at DBHuan.Shopping.HttpApi.CustomerController.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Controllers\CustomerController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at DBHuan.Shopping.HttpApi.DBHuanShoppingMiddleware.Invoke(HttpContext context) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Middleware\DBHuanShoppingMiddleware.cs:line 31
+2022-02-27 19:47:03.172 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers application/json 122 - 400 - application/json 1206.0836ms
+2022-02-27 19:48:12.772 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 19:48:12.849 +07:00 [DBG] Hosting starting
+2022-02-27 19:48:12.917 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 19:48:12.917 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 19:48:12.917 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 19:48:12.918 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:48:12.919 +07:00 [INF] Hosting environment: Development
+2022-02-27 19:48:12.920 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 19:48:12.920 +07:00 [DBG] Hosting started
+2022-02-27 19:48:12.945 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 19:48:12.973 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 19:48:12.998 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 19:48:12.999 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:48:13.112 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 19:48:13.239 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 19:48:13.241 +07:00 [DBG] Connection ID "18302628891539275821" disconnecting.
+2022-02-27 19:48:13.246 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 304.3184ms
+2022-02-27 19:48:13.354 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 19:48:13.359 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 4.8616ms
+2022-02-27 19:48:13.742 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 19:48:13.744 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 19:48:13.744 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:48:13.949 +07:00 [DBG] Connection ID "18302628891539275823" disconnecting.
+2022-02-27 19:48:13.949 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.8684ms
+2022-02-27 19:48:16.274 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers application/json 122
+2022-02-27 19:48:16.280 +07:00 [DBG] 1 candidate(s) found for the request path '/customers'
+2022-02-27 19:48:16.284 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)' with route pattern 'customers' is valid for the request path '/customers'
+2022-02-27 19:48:16.285 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:48:16.286 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 19:48:16.289 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:48:16.316 +07:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(DBHuan.Shopping.Application.Contracts.CreateCustomerReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 19:48:16.320 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 19:48:16.320 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 19:48:16.321 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 19:48:16.321 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 19:48:16.321 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 19:48:16.322 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:48:16.440 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 19:48:16.447 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:48:16.450 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' using the name '' in request data ...
+2022-02-27 19:48:16.451 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 19:48:16.461 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'
+2022-02-27 19:48:16.461 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:48:16.461 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:48:16.462 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 19:48:16.471 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 19:48:16.566 +07:00 [DBG] CustomerController-CreateAsync
+Req: {"Username":"test","Password":"123456","Email":"test@gmail.com","FirstName":"test","LastName":"test"}
+2022-02-27 19:48:17.026 +07:00 [ERR] CustomerRepository-CreateAsync
+Ex: {"ErrorCode":"E1001","ErrorMessage":"Username hoặc email đã tồn tại","ValidationsData":null,"StatusCode":400,"TargetSite":"Void MoveNext()","Message":"Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.","Data":[],"InnerException":null,"HelpLink":null,"Source":"DBHuan.Shopping.Infrastructure","HResult":-2146233088,"StackTrace":"   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\Repository\\Customer\\CustomerRepository.cs:line 64","$type":"DBHuanShoppingException"}
+2022-02-27 19:48:17.048 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi) in 723.3539ms
+2022-02-27 19:48:17.049 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 19:48:17.073 +07:00 [DBG] DBHuanShoppingMiddleware-Ex: {"ErrorCode":"E1001","ErrorMessage":"Username hoặc email đã tồn tại","ValidationsData":null,"StatusCode":400,"TargetSite":"Void MoveNext()","Message":"Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.","Data":[],"InnerException":null,"HelpLink":null,"Source":"DBHuan.Shopping.Infrastructure","HResult":-2146233088,"StackTrace":"   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Infrastructure\\Repository\\Customer\\CustomerRepository.cs:line 64\r\n   at DBHuan.Shopping.Application.CustomerService.CreateAsync(CreateCustomerReq req) in E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.Application\\Customer\\CustomerService.cs:line 59\r\n   at DBHuan.Shopping.HttpApi.CustomerController.CreateAsync(CreateCustomerReq req) in E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.HttpApi\\Controllers\\CustomerController.cs:line 73\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)\r\n   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at DBHuan.Shopping.HttpApi.DBHuanShoppingMiddleware.Invoke(HttpContext context) in E:\\github\\dbhuan.shopping\\DBHuan.Shopping\\DBHuan.Shopping.HttpApi\\Middleware\\DBHuanShoppingMiddleware.cs:line 31","$type":"DBHuanShoppingException"}
+2022-02-27 19:48:17.083 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers application/json 122 - 400 - application/json 808.9813ms
+2022-02-27 19:48:17.083 +07:00 [DBG] Connection ID "18086456118015426574" disconnecting.
+2022-02-27 19:48:57.928 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 19:48:57.991 +07:00 [DBG] Hosting starting
+2022-02-27 19:48:58.053 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 19:48:58.053 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 19:48:58.053 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 19:48:58.053 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:48:58.054 +07:00 [INF] Hosting environment: Development
+2022-02-27 19:48:58.054 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 19:48:58.054 +07:00 [DBG] Hosting started
+2022-02-27 19:48:58.079 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 19:48:58.134 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 19:48:58.158 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 19:48:58.158 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:48:58.292 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 19:48:58.426 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 19:48:58.432 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 355.2026ms
+2022-02-27 19:48:58.433 +07:00 [DBG] Connection ID "18158513699168452677" disconnecting.
+2022-02-27 19:48:58.504 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 19:48:58.510 +07:00 [DBG] Connection ID "18374686489872171054" disconnecting.
+2022-02-27 19:48:58.510 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 5.7271ms
+2022-02-27 19:48:58.845 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 19:48:58.846 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 19:48:58.846 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:48:58.972 +07:00 [DBG] Connection ID "18302628891539275827" disconnecting.
+2022-02-27 19:48:58.972 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.7570ms
+2022-02-27 19:58:28.543 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 19:58:28.694 +07:00 [DBG] Hosting starting
+2022-02-27 19:58:28.761 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 19:58:28.761 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 19:58:28.761 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 19:58:28.762 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 19:58:28.763 +07:00 [INF] Hosting environment: Development
+2022-02-27 19:58:28.763 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 19:58:28.763 +07:00 [DBG] Hosting started
+2022-02-27 19:58:28.798 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 19:58:28.883 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 19:58:28.937 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 19:58:28.937 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:58:29.175 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 19:58:29.314 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 19:58:29.315 +07:00 [DBG] Connection ID "18158513703463419916" disconnecting.
+2022-02-27 19:58:29.320 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 527.0700ms
+2022-02-27 19:58:29.626 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 19:58:29.630 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 3.7244ms
+2022-02-27 19:58:30.680 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 19:58:30.681 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 19:58:30.681 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 19:58:30.859 +07:00 [DBG] Connection ID "18158513712053354533" disconnecting.
+2022-02-27 19:58:30.859 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.3461ms
+2022-02-27 20:07:23.957 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 20:07:24.040 +07:00 [DBG] Hosting starting
+2022-02-27 20:07:24.098 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 20:07:24.098 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 20:07:24.098 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 20:07:24.099 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 20:07:24.099 +07:00 [INF] Hosting environment: Development
+2022-02-27 20:07:24.099 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 20:07:24.099 +07:00 [DBG] Hosting started
+2022-02-27 20:07:24.141 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 20:07:24.186 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 20:07:24.224 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 20:07:24.225 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 20:07:24.371 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 20:07:24.486 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 20:07:24.489 +07:00 [DBG] Connection ID "18374686489872171064" disconnecting.
+2022-02-27 20:07:24.493 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 357.2115ms
+2022-02-27 20:07:24.545 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 20:07:24.552 +07:00 [DBG] Connection ID "18086456118015426583" disconnecting.
+2022-02-27 20:07:24.553 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 6.9054ms
+2022-02-27 20:07:25.139 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 20:07:25.141 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 20:07:25.142 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 20:07:25.276 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.9344ms
+2022-02-27 20:25:11.206 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-27 20:25:11.289 +07:00 [DBG] Hosting starting
+2022-02-27 20:25:11.351 +07:00 [DBG] Loaded hosting startup assembly DBHuan.Shopping.HttpApi
+2022-02-27 20:25:11.351 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-27 20:25:11.351 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-27 20:25:11.352 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-27 20:25:11.353 +07:00 [INF] Hosting environment: Development
+2022-02-27 20:25:11.353 +07:00 [INF] Content root path: E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\
+2022-02-27 20:25:11.353 +07:00 [DBG] Hosting started
+2022-02-27 20:25:11.384 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger - -
+2022-02-27 20:25:11.383 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 20:25:11.421 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 20:25:11.421 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-27 20:25:11.467 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 20:25:11.468 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 20:25:11.468 +07:00 [DBG] No candidates found for the request path '/swagger'
+2022-02-27 20:25:11.468 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 20:25:11.549 +07:00 [DBG] Connection ID "18230571293206380560" disconnecting.
+2022-02-27 20:25:11.555 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger - - - 301 - - 173.9442ms
+2022-02-27 20:25:11.624 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 20:25:11.665 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/index.html - -
+2022-02-27 20:25:11.667 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-02-27 20:25:11.667 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 20:25:11.669 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-27 20:25:11.757 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 20:25:11.757 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-27 20:25:11.758 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 93.0709ms
+2022-02-27 20:25:11.758 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/index.html - - - 200 - text/html;charset=utf-8 379.3412ms
+2022-02-27 20:25:11.901 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 20:25:11.907 +07:00 [DBG] Connection ID "18374686494167138335" disconnecting.
+2022-02-27 20:25:11.908 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 6.3576ms
+2022-02-27 20:25:11.927 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - -
+2022-02-27 20:25:11.928 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/_framework/aspnetcore-browser-refresh.js - - - 200 11957 application/javascript;+charset=utf-8 0.9180ms
+2022-02-27 20:25:11.928 +07:00 [DBG] Connection ID "18302628891539275833" disconnecting.
+2022-02-27 20:25:12.541 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 20:25:12.543 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 20:25:12.543 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 20:25:12.728 +07:00 [DBG] Connection ID "18230571293206380562" disconnecting.
+2022-02-27 20:25:12.728 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.9464ms
+2022-02-27 20:25:12.959 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - -
+2022-02-27 20:25:12.959 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-02-27 20:25:12.959 +07:00 [DBG] Request did not match any endpoints
+2022-02-27 20:25:12.962 +07:00 [DBG] Connection ID "18374686494167138341" disconnecting.
+2022-02-27 20:25:12.962 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44301/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3915ms
+2022-02-27 20:48:51.161 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers application/json 122
+2022-02-27 20:48:51.167 +07:00 [DBG] 1 candidate(s) found for the request path '/customers'
+2022-02-27 20:48:51.170 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)' with route pattern 'customers' is valid for the request path '/customers'
+2022-02-27 20:48:51.171 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 20:48:51.174 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 20:48:51.178 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 20:48:51.210 +07:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(DBHuan.Shopping.Application.Contracts.CreateCustomerReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 20:48:51.213 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 20:48:51.213 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 20:48:51.214 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 20:48:51.214 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 20:48:51.214 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 20:48:51.215 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 20:48:51.322 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 20:48:51.326 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 20:48:51.328 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' using the name '' in request data ...
+2022-02-27 20:48:51.329 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 20:48:51.337 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'
+2022-02-27 20:48:51.337 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 20:48:51.337 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 20:48:51.337 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq' ...
+2022-02-27 20:48:51.346 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.CreateCustomerReq'.
+2022-02-27 20:48:51.431 +07:00 [DBG] CustomerController-CreateAsync
+Req: {"Username":"test","Password":"123456","Email":"test@gmail.com","FirstName":"test","LastName":"test"}
+2022-02-27 20:48:52.095 +07:00 [ERR] CustomerRepository-CreateAsync
+Ex: DBHuan.Shopping.Domain.DBHuanShoppingException: Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.
+   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\Repository\Customer\CustomerRepository.cs:line 64
+2022-02-27 20:48:52.113 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi) in 895.2976ms
+2022-02-27 20:48:52.114 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.CreateAsync (DBHuan.Shopping.HttpApi)'
+2022-02-27 20:48:52.151 +07:00 [DBG] DBHuanShoppingMiddleware-Ex: DBHuan.Shopping.Domain.DBHuanShoppingException: Exception of type 'DBHuan.Shopping.Domain.DBHuanShoppingException' was thrown.
+   at DBHuan.Shopping.Infrastructure.Repository.CustomerRepository.CreateAsync(Customer customer) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\Repository\Customer\CustomerRepository.cs:line 64
+   at DBHuan.Shopping.Application.CustomerService.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Application\Customer\CustomerService.cs:line 59
+   at DBHuan.Shopping.HttpApi.CustomerController.CreateAsync(CreateCustomerReq req) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Controllers\CustomerController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at DBHuan.Shopping.HttpApi.DBHuanShoppingMiddleware.Invoke(HttpContext context) in E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.HttpApi\Middleware\DBHuanShoppingMiddleware.cs:line 31
+2022-02-27 20:48:52.166 +07:00 [DBG] Connection ID "18302628891539275848" disconnecting.
+2022-02-27 20:48:52.166 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers application/json 122 - 400 - application/json 1005.2625ms
+2022-02-27 20:48:55.181 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44301/customers/auth application/json 58
+2022-02-27 20:48:55.181 +07:00 [DBG] 1 candidate(s) found for the request path '/customers/auth'
+2022-02-27 20:48:55.181 +07:00 [DBG] Endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)' with route pattern 'customers/auth' is valid for the request path '/customers/auth'
+2022-02-27 20:48:55.181 +07:00 [DBG] Request matched endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 20:48:55.182 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-02-27 20:48:55.182 +07:00 [INF] Executing endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 20:48:55.187 +07:00 [INF] Route matched with {action = "Authenticate", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate(DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq) on controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi).
+2022-02-27 20:48:55.187 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-27 20:48:55.187 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-02-27 20:48:55.187 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-27 20:48:55.187 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-27 20:48:55.187 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-02-27 20:48:55.187 +07:00 [DBG] Executing controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 20:48:55.187 +07:00 [DBG] Executed controller factory for controller DBHuan.Shopping.HttpApi.CustomerController (DBHuan.Shopping.HttpApi)
+2022-02-27 20:48:55.188 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq' ...
+2022-02-27 20:48:55.188 +07:00 [DBG] Attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq' using the name '' in request data ...
+2022-02-27 20:48:55.188 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-02-27 20:48:55.190 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq'
+2022-02-27 20:48:55.190 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq'.
+2022-02-27 20:48:55.191 +07:00 [DBG] Done attempting to bind parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq'.
+2022-02-27 20:48:55.191 +07:00 [DBG] Attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq' ...
+2022-02-27 20:48:55.192 +07:00 [DBG] Done attempting to validate the bound parameter 'req' of type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerReq'.
+2022-02-27 20:48:55.589 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-02-27 20:48:55.591 +07:00 [DBG] No information found on request to perform content negotiation.
+2022-02-27 20:48:55.591 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-02-27 20:48:55.591 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-02-27 20:48:55.592 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-02-27 20:48:55.592 +07:00 [INF] Executing OkObjectResult, writing value of type 'DBHuan.Shopping.Application.Contracts.AuthenticateCustomerRes'.
+2022-02-27 20:48:55.595 +07:00 [INF] Executed action DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi) in 407.5416ms
+2022-02-27 20:48:55.595 +07:00 [INF] Executed endpoint 'DBHuan.Shopping.HttpApi.CustomerController.Authenticate (DBHuan.Shopping.HttpApi)'
+2022-02-27 20:48:55.596 +07:00 [DBG] Connection ID "18014398523977498649" disconnecting.
+2022-02-27 20:48:55.596 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44301/customers/auth application/json 58 - 200 - application/json;+charset=utf-8 414.7168ms

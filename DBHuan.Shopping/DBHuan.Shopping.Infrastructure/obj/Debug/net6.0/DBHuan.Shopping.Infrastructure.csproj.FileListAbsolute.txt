@@ -9,3 +9,9 @@ E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Deb
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.dll
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\ref\DBHuan.Shopping.Infrastructure.dll
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.pdb
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.csproj.AssemblyReference.cache
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\DBHuan.Shopping.Domain.Shared.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\DBHuan.Shopping.Domain.Shared.pdb
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\obj\Debug\net6.0\DBHuan.Shopping.Infrastructure.csproj.CopyComplete
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\DBHuan.Shopping.Domain.dll
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Infrastructure\bin\Debug\net6.0\DBHuan.Shopping.Domain.pdb

@@ -2,7 +2,6 @@ E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\bin\Debu
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\bin\Debug\net6.0\DBHuan.Shopping.Domain.Shared.dll
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\bin\Debug\net6.0\ref\DBHuan.Shopping.Domain.Shared.dll
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\bin\Debug\net6.0\DBHuan.Shopping.Domain.Shared.pdb
-E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\DBHuan.Shopping.Domain.Shared.csproj.AssemblyReference.cache
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\DBHuan.Shopping.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\DBHuan.Shopping.Domain.Shared.AssemblyInfoInputs.cache
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\DBHuan.Shopping.Domain.Shared.AssemblyInfo.cs
@@ -10,3 +9,4 @@ E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debu
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\DBHuan.Shopping.Domain.Shared.dll
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\ref\DBHuan.Shopping.Domain.Shared.dll
 E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\DBHuan.Shopping.Domain.Shared.pdb
+E:\github\dbhuan.shopping\DBHuan.Shopping\DBHuan.Shopping.Domain.Shared\obj\Debug\net6.0\DBHuan.Shopping.Domain.Shared.csproj.AssemblyReference.cache
